@@ -1,0 +1,15 @@
+services:
+  devdeck:
+    build: .
+    container_name: devdeck
+    ports:
+      - "3060:3000"
+    environment:
+      - NODE_ENV=production
+      - DATABASE_PATH=/app/data/workbench.sqlite
+    volumes:
+      - devdeck-data:/app/data
+    restart: unless-stopped
+
+volumes:
+  devdeck-data:
