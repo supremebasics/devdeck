@@ -2,8 +2,6 @@
 
 Self-hosted HTTP console: you own the SQLite file, the process, and the network calls. Palette-driven, tabbed, mockable-useful when the backend is late or you are tired of signing into someone else’s SaaS just to hit `GET`.
 
-![Hero](docs/devdeck-hero.png)
-
 ![UI — request builder and side panel](docs/devdeck-ui.png)
 
 ## Install
